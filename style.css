@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: red;
+    
+}
+.title {
+    margin-bottom: 7px;
+}
+.title h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+section {
+    
+    background-color: red;
+    width: 300px;
+    
+    padding: 30px;
+}
+.required {
+    display: block;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 7px;
+}
+.hide label, .bio label {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transform: translateX(166px);
+}
+span.error {
+    padding-top: 1px;
+    margin-top: -1.4em;
+    margin-bottom: 1.4em;
+    display: block;
+    padding-left: 20px;
+    color: #242424;
+    background-image: url("img/icon-warning.png");
+    background-position: left 3px;
+    background-repeat: no-repeat;}
+.hide {
+    display: none;
+}
